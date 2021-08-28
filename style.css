@@ -1,0 +1,73 @@
+  html {
+    background: url('/bg.jpg') center center/cover;
+    color: white;
+    height: 100%;
+  }
+  
+  * {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 3.2rem;
+  }
+  
+  .container {
+    width: 300px;
+    margin: auto auto;
+  }
+  
+  label,
+  input {
+    display: block;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+  
+  label {
+    font-weight: 500;
+    font-size: 2rem;
+  }
+  
+  input {
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: transparent;
+    font-size: large;
+    margin: 1rem 0;
+  }
+  
+  #check {
+    margin: 0.5rem auto;
+    display: block;
+  }
+  
+  #check {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    outline: white;
+    margin: auto;
+    display: block;
+    font-weight: bold;
+  }
+  
+  #output-container {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 2rem;
+    border-color: var(--black);
+    border-width: medium;
+    border-radius: 5px;
+    font-weight: bold;
+  }
