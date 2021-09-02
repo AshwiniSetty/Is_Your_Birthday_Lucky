@@ -1,7 +1,7 @@
 const dateOfBirth = document.querySelector("#date-of-birth");
 const luckyNumber = document.querySelector("#lucky-number");
 const checkButton = document.querySelector("#check");
-const displayMessage = document.querySelector("#output-container");
+const displayMessage = document.querySelector("#output");
 
 const calculateSum = (date) => {
   let sum = 0;
