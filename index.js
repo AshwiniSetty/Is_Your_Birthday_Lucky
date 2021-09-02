@@ -16,10 +16,10 @@ const checkIsNumberLucky = (sumOfDate, numberToCheck) => {
   console.log(sumOfDate, numberToCheck);
   if (sumOfDate % numberToCheck === 0) {
     showMessage(`Yayyy! ${numberToCheck} is a lucky number for you😍!!`);
-    outputImage = document.getElementById("myImg").src = "happy.gif";
+    outputImage = document.getElementById("myImg").src = "images/happy.gif";
   }else{
   showMessage(`Oh No!🙁 ${numberToCheck} is not that lucky for you`);
-  outputImage = document.getElementById("myImg").src = "sad.gif"; }
+  outputImage = document.getElementById("myImg").src = "images/sad.gif"; }
 };
 
 const showMessage = (message) => {
@@ -34,7 +34,7 @@ checkButton.addEventListener("click", () => {
     checkIsNumberLucky(sumOfDate, numberToCheck);
   } else {
     showMessage("🙄Please enter both the fields");
-    outputImage = document.getElementById("myImg").src = "enter.gif";
+    outputImage = document.getElementById("myImg").src = "images/enter.gif";
   }
 });
 
