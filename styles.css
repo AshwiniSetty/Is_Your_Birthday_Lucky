@@ -1,42 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 body{
     margin: 0px;
-    font-family: 'Aclonica', sans-serif;
+    font-family: 'Righteous', cursive;
+    background-color: #F6DDCC;
 
 }
 
-
-.seg-one {
-    background: url("bg.jpg") center center/cover;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+main{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
 }
 h1{
-    color: white;
+    color: #D35400 ;
     font-size: 32pt;
     text-align: center;
     margin: 2rem; 
 }
 
 
-#check{
-    margin-top: 50px;
-    background-color: white;
-    color:black;
-    margin: 0.5rem;
-    text-decoration: none;
-    padding:0.5rem;
-    border: 0.5px solid var(--white);
-    font-size: 20pt;
-}
+
 .container {
-    height: 100vh;
+  max-width: 90%;
+    height: 100%;
     text-align: center;
-    max-width: 50%;
-    width: 60%;
+    max-width: 40%;
+    width: 80%;
     margin: auto auto;
   }
   
@@ -50,7 +42,7 @@ h1{
   label {
     font-weight: 500;
     font-size: 2rem;
-	color: white;;
+    color: #D35400 ;
   }
   
   input {
@@ -58,28 +50,41 @@ h1{
     padding: 0.5rem;
     font-size: large;
     margin: 1rem 0;
+    color: #F6DDCC ;
+    border: 1px solid #D35400 ;
+    background:#D35400 ;
+    font-weight: bold;
   }
 
+  #check{
+    margin-top: 50px;
+    background: transparent;
+    color: #D35400 ;
+    margin: 0.5rem;
+    text-decoration: none;
+    padding:0.5rem;
+    border: 0.5px solid var(--white);
+    font-size: 20pt;
+    font-family: 'Righteous', cursive;
+    border-radius: 1.5rem;
+    border: 2px solid #D35400;
+}
+
   #output{
-	display: block;
-    margin: auto;
-    margin-top: 1rem;
-    width: 100%;
     text-align: center;
     padding: 0.5rem;
-    font-size: 2rem;
-    border-color: var(--black);
-    border-width: medium;
-    border-radius: 5px;
+    font-size: 1.5rem;
     font-weight: bold;
-    color: white;
+    color: #D35400 ;
+    font-family: 'Righteous', cursive;
+    margin-bottom: 0px;
   }
 
 /** Footers **/
 .footer{
 	text-align: center;
-	padding-bottom: 0.5rem;
-	color: white;
+	padding-bottom: 0;
+	color: #D35400;
 	width: 100%;
 	
   }
@@ -94,7 +99,7 @@ h1{
 	margin: 0.3rem;
   }
   .footer .link{
-	color: white;
+	color: #D35400;
 	text-decoration: none;
   font-size: 1.5rem;
   }
@@ -105,7 +110,6 @@ h1{
   
   .list-non-bullet {
 	list-style: none;
-	color: white;
 	cursor: pointer;
   }
   
@@ -119,11 +123,9 @@ h1{
     padding: 20px;
     color: white;
     opacity: 1;
-    width: 30%;
-    max-width: 40%;
     transition: opacity 0.6s;
     margin: 2rem;
-    background-color: black;
+    background-color: #D35400;
 
   }
   
@@ -142,3 +144,19 @@ h1{
   .closebtn:hover {
     color: grey;
   }
+
+  .output-img{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+  } 
+
+  .image {
+    max-width: 80%;
+    display: block;
+    width: 200px;
+    margin: auto;
+    max-height: 60%;
+    height: 145px;
+}
